@@ -1,0 +1,175 @@
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+div {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 800;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.board {
+  margin: 20px auto;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.board-colum {
+ height: 100px;
+    width: 100px;
+    border: 3px solid #786cc1;
+    background: #fff;
+    align-items: center;
+    display: flex;
+    font-size: 33px;
+    justify-content: center;
+    font-weight: 600;
+    font-family: "Gloria Hallelujah", cursive;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.winner {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  border: 2px solid;
+  width: 200px;
+  margin: 20px auto 0px;
+  padding: 10px;
+  background: green;
+  border-radius: 7px;
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.draw {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  border: 2px solid;
+  width: 220px;
+  margin: 20px auto 0px;
+  padding: 10px;
+  background: rgb(218, 70, 90);
+  border-radius: 7px;
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.next-player {
+  font-size: 26px;
+  font-weight: 600;
+  color: #292130;
+  font-family: "Gloria Hallelujah", cursive;
+  padding: 10px 0px 0px;
+  text-align: center;
+}
+
+.replay {
+  font-size: 22px;
+  font-weight: bolder !important;
+  color: #423a3a;
+  width: auto;
+  border: 0px;
+  padding: 15px 25px;
+  border-radius: 7px;
+  letter-spacing: 2px;
+  font-family: "Gloria Hallelujah", cursive;
+  background: #EEAECA;
+  margin: 20px auto;
+  display: block;
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.tictactoe {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 800;
+  font-style: normal;
+  color: #7B68EE;
+  text-align: center;
+  margin: 50px 0px 10px;
+}
+
+.header-nav {
+  background: #fafafa8a;
+  padding: 20px 50px !important;
+  justify-content: space-between !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-bottom: 2px solid #f3e7e7;
+}
+
+.logo-div a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #111;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 800;
+}
+
+.logo-div a img {
+  height: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 800;
+  color: #222;
+  margin: 0px 0px 0px 40px;
+}
+
+.nav-links a.active {
+  color: #912222;
+}
+.tictaktoe-header a img {
+    height: 70px;
+}
+
+.tictaktoe-header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 38px;
+    text-decoration: none;
+    color: #2d517a;
+}
